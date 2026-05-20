@@ -1,0 +1,1623 @@
+@tailwind theme;
+@tailwind animation;
+
+*,
+:after,
+:before {
+    border-width: 0;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    --tw-contain-size: ;
+    --tw-contain-layout: ;
+    --tw-contain-paint: ;
+    --tw-contain-style:
+}
+
+::backdrop {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    --tw-contain-size: ;
+    --tw-contain-layout: ;
+    --tw-contain-paint: ;
+    --tw-contain-style:
+}
+
+.MyDisneyUi .z-\[1000000\] {
+    z-index: 1000000
+}
+
+.MyDisneyUi .z-\[1\] {
+    z-index: 1
+}
+
+.MyDisneyUi .mx-\[-16px\] {
+    margin-left: -16px;
+    margin-right: -16px
+}
+
+.MyDisneyUi .mb-\[-16px\] {
+    margin-bottom: -16px
+}
+
+.MyDisneyUi .ml-\[-8px\] {
+    margin-left: -8px
+}
+
+.MyDisneyUi .mt-\[-4px\] {
+    margin-top: -4px
+}
+
+.MyDisneyUi .aspect-\[\.75\/1\] {
+    aspect-ratio: .75/1
+}
+
+.MyDisneyUi .aspect-\[\.91\/1\] {
+    aspect-ratio: .91/1
+}
+
+.MyDisneyUi .min-h-\[92px\] {
+    min-height: 92px
+}
+
+.MyDisneyUi .w-\[calc\(100\%-42px\)\] {
+    width: calc(100% - 42px)
+}
+
+.MyDisneyUi .flex-\[0_0_24px\] {
+    flex: 0 0 24px
+}
+
+.MyDisneyUi .flex-\[0_0_64px\] {
+    flex: 0 0 64px
+}
+
+.MyDisneyUi .flex-\[0_0_auto\] {
+    flex: 0 0 auto
+}
+
+.MyDisneyUi .flex-\[1_0_0\] {
+    flex: 1 0 0
+}
+
+.MyDisneyUi .flex-\[1_0_24px\] {
+    flex: 1 0 24px
+}
+
+
+.MyDisneyUi .translate-y-\[20px\] {
+    --tw-translate-y: 20px
+}
+
+
+.MyDisneyUi .translate-y-\[20px\] {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.MyDisneyUi .scale-y-\[-1\] {
+    --tw-scale-y: -1
+}
+
+.MyDisneyUi .scale-y-\[-1\] {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.MyDisneyUi .grid-cols-\[16px_1fr\] {
+    grid-template-columns: 16px 1fr
+}
+
+.MyDisneyUi .rounded-\[10px\] {
+    border-radius: 10px
+}
+
+.MyDisneyUi .opacity-\[0\.02\] {
+    opacity: .02
+}
+
+.MyDisneyUi .shadow-\[0_3px_12px_0px_rgba\(0\2c 0\2c 0\2c 0\.18\)\] {
+    --tw-shadow: 0 3px 12px 0px rgba(0, 0, 0, .18);
+    --tw-shadow-colored: 0 3px 12px 0px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.MyDisneyUi .shadow-\[inset_0_0_0_1px\] {
+    --tw-shadow: inset 0 0 0 1px;
+    --tw-shadow-colored: inset 0 0 0 1px var(--tw-shadow-color)
+}
+
+.MyDisneyUi .shadow-\[inset_0_0_0_1px\] {
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.MyDisneyUi .\[-webkit-tap-highlight-color\:transparent\] {
+    -webkit-tap-highlight-color: transparent
+}
+
+.MyDisneyUi .\[-webkit-text-fill-color\:transparent\] {
+    -webkit-text-fill-color: transparent
+}
+
+.MyDisneyUi .\[transform-box\:view-box\] {
+    transform-box: view-box
+}
+
+@layer theme {
+
+    body {
+        --background_gradient: radial-gradient(circle at 20% 95%, #056877, #051828 96%);
+        --button_primary_default_text: #fff;
+        --button_primary_hover_text: #fff;
+        --button_primary_active_text: #fff;
+        --button_primary_focus_text: #fff;
+        --button_primary_default: #30f;
+        --button_primary_hover: #2700cd;
+        --button_primary_active: #1c00a1;
+        --button_primary_focus: #2700cd;
+        --button_primary_loading: #30f;
+        --button_primary_disabled: #a6b8ff;
+        --checkbox_background_checked: #30f;
+        --checkbox_border_checked: #30f;
+        --media_object_full_border: #e6e8eb;
+        --media_object_top_border: #ccced3;
+        --toggle_bg_checked: #30f;
+        --toggle_bg_checked_hover: #2700cd;
+        --toggle_bg_checked_disabled: #c6d6ff
+    }
+
+    :is(div)[data-language=zh-hant] {
+        font-family: InspireTC, sans-serif
+    }
+
+    @font-face {
+        font-family: Tungsten-Bold;
+        src: local("Tungsten-Bold"), url(https://static-assets.bamgrid.com/fonts/tungsten/Tungsten-Bold.1167df54071d4dd2403c9a09d5f357fb.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/tungsten/Tungsten-Bold.69c71daaf16c366e564bfa2c572905bc.woff) format("woff"), url(https://static-assets.bamgrid.com/fonts/tungsten/Tungsten-Bold.3b0838af3c2407d8612575848311bdc7.otf) format("opentype")
+    }
+
+    @font-face {
+        font-family: Graphik Web;
+        src: local("Graphik Web"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.woff2) format("woff2");
+        font-weight: 300
+    }
+
+    @font-face {
+        font-family: Graphik Web;
+        src: local("Graphik Web"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.woff2) format("woff2");
+        font-weight: 400
+    }
+
+    @font-face {
+        font-family: Graphik Web;
+        src: local("Graphik Web"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.woff2) format("woff2");
+        font-weight: 500
+    }
+
+    @font-face {
+        font-family: Graphik Web;
+        src: local("Graphik Web"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.woff2) format("woff2");
+        font-weight: 600
+    }
+
+    @font-face {
+        font-family: Graphik Web;
+        src: local("Graphik Web"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.woff2) format("woff2");
+        font-weight: 700
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SuperItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SuperItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SuperItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SuperItalic-Web.woff2) format("woff2");
+        font-weight: 900
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Super-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Super-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Super-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Super-Web.woff2) format("woff2");
+        font-weight: 900
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BlackItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BlackItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BlackItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BlackItalic-Web.woff2) format("woff2");
+        font-weight: 800
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Black-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Black-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Black-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Black-Web.woff2) format("woff2");
+        font-weight: 800
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BoldItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BoldItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BoldItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-BoldItalic-Web.woff2) format("woff2");
+        font-weight: 700
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Bold-Web.woff2) format("woff2");
+        font-weight: 700
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SemiboldItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SemiboldItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SemiboldItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-SemiboldItalic-Web.woff2) format("woff2");
+        font-weight: 600
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Semibold-Web.woff2) format("woff2");
+        font-weight: 600
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-MediumItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-MediumItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-MediumItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-MediumItalic-Web.woff2) format("woff2");
+        font-weight: 500
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Medium-Web.woff2) format("woff2");
+        font-weight: 500
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-RegularItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-RegularItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-RegularItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-RegularItalic-Web.woff2) format("woff2");
+        font-weight: 400
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Regular-Web.woff2) format("woff2");
+        font-weight: 400
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-LightItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-LightItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-LightItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-LightItalic-Web.woff2) format("woff2");
+        font-weight: 300
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Light-Web.woff2) format("woff2");
+        font-weight: 300
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ExtralightItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ExtralightItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ExtralightItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ExtralightItalic-Web.woff2) format("woff2");
+        font-weight: 200
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Extralight-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Extralight-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Extralight-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Extralight-Web.woff2) format("woff2");
+        font-weight: 200
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ThinItalic-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ThinItalic-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ThinItalic-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-ThinItalic-Web.woff2) format("woff2");
+        font-weight: 100
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Thin-Web.eot) format("eot"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Thin-Web.eot?#iefix) format("embedded-opentype"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Thin-Web.woff) format("woff"), url(https://assetshuluimcom-a.akamaihd.net/FONTS/Graphik-Thin-Web.woff2) format("woff2");
+        font-weight: 100
+    }
+
+    @font-face {
+        font-family: Graphik;
+        src: local("Graphik"), url(https://static-assets.bamgrid.com/fonts/graphik/Graphik-Regular.e2a1876e68b3885d03062214bc6016e9.otf) format("opentype")
+    }
+
+    @font-face {
+        font-family: Inspire-Bold;
+        src: local("Inspire-Bold"), url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Bold.4ff15ddc93445342649194969715b0b5.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Bold.a24589fb30a5912d866f5be90c583260.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Bold.b16fb94fbdeb4ab54a59175c7087e713.woff) format("woff")
+    }
+
+    @font-face {
+        font-family: Inspire-Mini;
+        src: local("Inspire-Mini"), url(https://static-assets.bamgrid.com/fonts/inspire-mini/InspireMini-Regular.06726c936c5b9b2e1067df3ae1cba277.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire-mini/InspireMini-Regular.fb3f9f7bd70c6ca627e8a434f6fd67fe.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire-mini/InspireMini-Regular.fed011672e27cc7f97f354df605d9491.woff) format("woff")
+    }
+
+    @font-face {
+        font-family: Inspire-Regular;
+        src: local("Inspire-Regular"), url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Regular.f2199f841165c4ddbafcf177da3ef974.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Regular.dc9c13344c3110d2803627ad0645ff13.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Regular.c7d8596d5b575e25ed1bc78c4471d668.woff) format("woff")
+    }
+
+    @font-face {
+        font-family: InspireKR-Regular;
+        src: local("InspireKR-Regular"), url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Regular.0aadfa72c5e8b09fe623cfe226210f9c.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Regular.4fb23c9cad988a8f25ed2c468bf44bef.woff) format("woff"), url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Regular.dd56826529a5cf37cf650680f7b063b0.woff2) format("woff2")
+    }
+
+    @font-face {
+        font-family: InspireKR-Bold;
+        src: local("InspireKR-Bold"), url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Bold.6a7047549e067f2b357876a5010d9b89.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Bold.8b20c35680d14cc024e5961e8b4b53e6.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Bold.d0ecc7af17e7df7056e400955f6f9d1a.woff) format("woff")
+    }
+
+    @font-face {
+        font-family: InspireJP-Regular;
+        src: local("InspireJP-Regular"), url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Regular.4f3607ff79efb6114cb0e8b5d983f1bd.woff) format("woff"), url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Regular.93b438c964105fca1889c4ac386578c1.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Regular.c92c9b86823358408a1227800f100720.woff2) format("woff2")
+    }
+
+    @font-face {
+        font-family: InspireJP-Bold;
+        src: local("InspireJP-Bold"), url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Bold.60af7c93039e6cebdb32ada3d8716cb7.woff) format("woff"), url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Bold.69e39ed68847d8efc12e88b589f93407.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Bold.a76b796a86980ba2fbc5453c48972b5b.otf) format("opentype")
+    }
+
+    @font-face {
+        font-family: InspireSC-Regular;
+        src: local("InspireSC-Regular"), url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Regular.38b74be328515fd1914cc850be5f9589.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Regular.48a755fb199274a882ee7cb1064f70be.woff) format("woff"), url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Regular.6fd447bb64a5add4cc0f769814290255.otf) format("opentype")
+    }
+
+    @font-face {
+        font-family: InspireSC-Bold;
+        src: local("InspireSC-Bold"), url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Bold.8824332f1209ed6b207ce8956f2aa376.woff) format("woff"), url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Bold.b367bf153b5918acc21d0da0e31857e3.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Bold.ef45fd4fd8d764e6f99e0346414612db.otf) format("opentype")
+    }
+
+    @font-face {
+        font-family: InspireTC-Regular;
+        src: local("InspireTC-Regular"), url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Regular.53f503a5761d9b2ecdb4d4d6e5f34929.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Regular.3efeed4e08c4f73cc37b5d8532f28421.woff2) format("woff2"), url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Regular.c638be261063b5e6561062112261f41c.woff) format("woff")
+    }
+
+    @font-face {
+        font-family: InspireTC-Bold;
+        src: local("InspireTC-Bold"), url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Bold.f2a6e97f378bace24f33184617eda049.woff) format("woff"), url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Bold.50c872d62d65a0395d74cf29600bbb44.otf) format("opentype"), url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Bold.eff189de3b97c8997747afea80e455cc.woff2) format("woff2")
+    }
+
+    @font-face {
+        font-family: InspireTHL-Light;
+        src: local("InspireTHL-Light"), url(https://static-assets.bamgrid.com/fonts/inspire-thl/InspireTHL-Light.bde66df39b81708e5b21d8b27810369e.woff2) format("woff2")
+    }
+
+    @font-face {
+        font-family: InspireTHL-Regular;
+        src: local("InspireTHL-Regular"), url(https://static-assets.bamgrid.com/fonts/inspire-thl/InspireTHL-Regular.2bb4aa9ced5d57730e2caeea81234002.woff2) format("woff2")
+    }
+}
+
+@layer animation {
+    @keyframes fade_in {
+        0% {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade_out {
+        0% {
+            opacity: 1
+        }
+
+        to {
+            opacity: 0
+        }
+    }
+
+    @keyframes slide_mobile_container_down {
+        0% {
+            padding-bottom: 32px;
+            margin-top: 0
+        }
+
+        to {
+            padding-bottom: 0;
+            margin-top: 32px
+        }
+    }
+
+    @keyframes slide_mobile_container_up {
+        0% {
+            padding-bottom: 0;
+            margin-top: 32px
+        }
+
+        to {
+            padding-bottom: 32px;
+            margin-top: 0
+        }
+    }
+
+    @keyframes slide_secondary_container_down {
+        0% {
+            transform: translateY(0)
+        }
+
+        to {
+            transform: translateY(20px)
+        }
+    }
+
+    @keyframes slide_secondary_container_up {
+        0% {
+            transform: translateY(20px)
+        }
+
+        to {
+            transform: translateY(0)
+        }
+    }
+
+    @keyframes slide_web_container_down {
+        0% {
+            transform: translateY(0)
+        }
+
+        to {
+            transform: translateY(60px)
+        }
+    }
+
+    @keyframes slide_web_container_up {
+        0% {
+            transform: translateY(60px)
+        }
+
+        to {
+            transform: translateY(0)
+        }
+    }
+
+    @keyframes loader_ellipsis_1 {
+        0% {
+            opacity: 0;
+            scale: 0
+        }
+
+        to {
+            opacity: .6;
+            scale: 1
+        }
+    }
+
+    @keyframes loader_ellipsis_2 {
+        0% {
+            transform: translate(0);
+            opacity: .6;
+            scale: 1
+        }
+
+        to {
+            transform: translate(14px);
+            opacity: 1;
+            scale: 1.25
+        }
+    }
+
+    @keyframes loader_ellipsis_3 {
+        0% {
+            transform: translate(0);
+            opacity: 1;
+            scale: 1.5
+        }
+
+        to {
+            transform: translate(16px);
+            opacity: .6;
+            scale: 1
+        }
+    }
+
+    @keyframes loader_ellipsis_4 {
+        0% {
+            scale: 1;
+            opacity: .6
+        }
+
+        to {
+            scale: 0;
+            opacity: 0
+        }
+    }
+
+    @keyframes inputCaret {
+        0% {
+            opacity: 1
+        }
+
+        25% {
+            opacity: 1
+        }
+
+        75% {
+            opacity: .1
+        }
+
+        to {
+            opacity: .1
+        }
+    }
+}
+
+.MyDisneyUi .placeholder\:text-form_field_placeholder::-moz-placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(95 97 102/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .placeholder\:text-form_field_placeholder::placeholder {
+    --tw-text-opacity: 1;
+    color: rgb(95 97 102/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .placeholder\:text-transparent::-moz-placeholder {
+    color: transparent
+}
+
+.MyDisneyUi .placeholder\:text-transparent::placeholder {
+    color: transparent
+}
+
+.MyDisneyUi .placeholder\:transition-colors::-moz-placeholder {
+    -moz-transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .2s
+}
+
+.MyDisneyUi .placeholder\:transition-colors::placeholder {
+    transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .2s
+}
+
+.MyDisneyUi .placeholder\:ease-in-out::-moz-placeholder {
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+.MyDisneyUi .placeholder\:ease-in-out::placeholder {
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+.MyDisneyUi .before\:pointer-events-none:before {
+    content: var(--tw-content);
+    pointer-events: none
+}
+
+.MyDisneyUi .before\:absolute:before {
+    content: var(--tw-content);
+    position: absolute
+}
+
+.MyDisneyUi .before\:bottom-0:before {
+    content: var(--tw-content);
+    bottom: 0
+}
+
+.MyDisneyUi .before\:bottom-2:before {
+    content: var(--tw-content);
+    bottom: 2px
+}
+
+.MyDisneyUi .before\:left-0:before {
+    content: var(--tw-content);
+    left: 0
+}
+
+.MyDisneyUi .before\:left-2:before {
+    content: var(--tw-content);
+    left: 2px
+}
+
+.MyDisneyUi .before\:right-0:before {
+    content: var(--tw-content);
+    right: 0
+}
+
+.MyDisneyUi .before\:right-2:before {
+    content: var(--tw-content);
+    right: 2px
+}
+
+.MyDisneyUi .before\:top-80:before {
+    content: var(--tw-content);
+    top: 80px
+}
+
+.MyDisneyUi .before\:h-1:before {
+    content: var(--tw-content);
+    height: 1px
+}
+
+.MyDisneyUi .before\:h-22:before {
+    content: var(--tw-content);
+    height: 22px
+}
+
+.MyDisneyUi .before\:w-22:before {
+    content: var(--tw-content);
+    width: 22px
+}
+
+.MyDisneyUi .before\:w-full:before {
+    content: var(--tw-content);
+    width: 100%
+}
+
+.MyDisneyUi .before\:cursor-text:before {
+    content: var(--tw-content);
+    cursor: text
+}
+
+.MyDisneyUi .before\:rounded-full:before {
+    content: var(--tw-content);
+    border-radius: 100%
+}
+
+.MyDisneyUi .before\:border-b-2:before {
+    content: var(--tw-content);
+    border-bottom-width: 2px
+}
+
+.MyDisneyUi .before\:border-solid:before {
+    content: var(--tw-content);
+    border-style: solid
+}
+
+.MyDisneyUi .before\:border-b-error:before {
+    content: var(--tw-content);
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(212 9 9/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .before\:border-b-form_field_underline:before {
+    content: var(--tw-content);
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(37 37 38/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .before\:border-b-form_field_underline_default:before {
+    content: var(--tw-content);
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(134 137 143/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .before\:bg-footer_mobile_divider:before {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: rgb(233 235 240/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .before\:bg-grey-100:before {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 242 244/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .before\:bg-white:before {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .before\:transition-colors:before {
+    content: var(--tw-content);
+    transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .2s
+}
+
+.MyDisneyUi .before\:transition-transform:before {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+.MyDisneyUi .before\:duration-200:before,
+.MyDisneyUi .before\:transition-transform:before {
+    content: var(--tw-content);
+    transition-duration: .2s
+}
+
+.MyDisneyUi .before\:ease-in-out:before {
+    content: var(--tw-content);
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1)
+}
+
+.MyDisneyUi .before\:content-\[\'\'\]:before {
+    --tw-content: "";
+    content: var(--tw-content)
+}
+
+.MyDisneyUi .after\:absolute:after {
+    content: var(--tw-content);
+    position: absolute
+}
+
+.MyDisneyUi .after\:bottom-0:after {
+    content: var(--tw-content);
+    bottom: 0
+}
+
+.MyDisneyUi .after\:block:after {
+    content: var(--tw-content);
+    display: block
+}
+
+.MyDisneyUi .after\:w-full:after {
+    content: var(--tw-content);
+    width: 100%
+}
+
+.MyDisneyUi .after\:animate-none:after {
+    content: var(--tw-content);
+    animation: none
+}
+
+.MyDisneyUi .after\:animate-passcode:after {
+    content: var(--tw-content);
+    animation: inputCaret .7s infinite alternate
+}
+
+.MyDisneyUi .after\:border-b-3:after {
+    content: var(--tw-content);
+    border-bottom-width: 3px
+}
+
+.MyDisneyUi .after\:border-solid:after {
+    content: var(--tw-content);
+    border-style: solid
+}
+
+.MyDisneyUi .after\:border-form_field_underline:after {
+    content: var(--tw-content);
+    --tw-border-opacity: 1;
+    border-color: rgb(37 37 38/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .after\:border-transparent:after {
+    content: var(--tw-content);
+    border-color: transparent
+}
+
+.MyDisneyUi .after\:border-b-error:after {
+    content: var(--tw-content);
+    --tw-border-opacity: 1;
+    border-bottom-color: rgb(212 9 9/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .after\:delay-100:after {
+    content: var(--tw-content);
+    transition-delay: .1s
+}
+
+.MyDisneyUi .after\:content-\[\"\"\]:after {
+    --tw-content: "";
+    content: var(--tw-content)
+}
+
+.MyDisneyUi .hover\:border-button_destructive_hover_border:hover,
+.MyDisneyUi .hover\:border-button_primary_hover_border:hover {
+    border-color: transparent
+}
+
+.MyDisneyUi .hover\:border-button_secondary_hover_border:hover {
+    --tw-border-opacity: 1;
+    border-color: rgb(204 206 211/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .hover\:bg-button_destructive_hover:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(188 7 7/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .hover\:bg-button_icon_primary_hover:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(204 206 211/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .hover\:bg-button_icon_secondary_hover:hover {
+    background-color: transparent
+}
+
+.MyDisneyUi .hover\:bg-button_primary_hover:hover {
+    background-color: var(--button_primary_hover)
+}
+
+.MyDisneyUi .hover\:bg-button_secondary_hover:hover,
+.MyDisneyUi .hover\:bg-checkbox_background_hover:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 242 244/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .hover\:bg-grey-500:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(134 137 143/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .hover\:text-button_destructive_hover_text:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .hover\:text-button_primary_hover_text:hover {
+    color: var(--button_primary_hover_text)
+}
+
+.MyDisneyUi .hover\:text-button_secondary_hover_text:hover {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .hover\:text-text_link_hover:hover {
+    --tw-text-opacity: 1;
+    color: rgb(0 16 160/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .hover\:underline:hover {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+.MyDisneyUi .focus\:border-button_destructive_focus_border:focus {
+    --tw-border-opacity: 1;
+    border-color: rgb(188 7 7/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .focus\:border-button_primary_focus_border:focus {
+    border-color: transparent
+}
+
+.MyDisneyUi .focus\:border-button_secondary_focus_border:focus {
+    --tw-border-opacity: 1;
+    border-color: rgb(204 206 211/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .focus\:bg-button_destructive_focus:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgb(212 9 9/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .focus\:bg-button_primary_focus:focus {
+    background-color: var(--button_primary_focus)
+}
+
+.MyDisneyUi .focus\:bg-button_secondary_focus:focus {
+    --tw-bg-opacity: 1;
+    background-color: rgb(241 242 244/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .focus\:text-button_destructive_focus_text:focus {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .focus\:text-button_primary_focus_text:focus {
+    color: var(--button_primary_focus_text)
+}
+
+.MyDisneyUi .focus\:text-button_secondary_focus_text:focus {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .focus\:underline:focus {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+.MyDisneyUi .focus\:outline-none:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px
+}
+
+.MyDisneyUi .focus\:outline-3:focus {
+    outline-width: 3px
+}
+
+.MyDisneyUi .focus\:outline-offset-3:focus {
+    outline-offset: 3px
+}
+
+.MyDisneyUi .focus\:outline-destructive_focus_outline:focus {
+    outline-color: #f95252
+}
+
+.MyDisneyUi .focus\:ring-0:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
+}
+
+.MyDisneyUi .focus-visible\:outline-none:focus-visible {
+    outline: 2px solid transparent;
+    outline-offset: 2px
+}
+
+.MyDisneyUi .focus-visible\:outline:focus-visible {
+    outline-style: solid
+}
+
+.MyDisneyUi .focus-visible\:outline-2:focus-visible {
+    outline-width: 2px
+}
+
+.MyDisneyUi .focus-visible\:outline-3:focus-visible {
+    outline-width: 3px
+}
+
+.MyDisneyUi .focus-visible\:outline-primary_focus_outline:focus-visible {
+    outline-color: #6468ff
+}
+
+.MyDisneyUi .active\:border-button_destructive_active_border:active,
+.MyDisneyUi .active\:border-button_primary_active_border:active {
+    border-color: transparent
+}
+
+.MyDisneyUi .active\:border-button_secondary_active_border:active {
+    --tw-border-opacity: 1;
+    border-color: rgb(204 206 211/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .active\:bg-button_destructive_active:active {
+    --tw-bg-opacity: 1;
+    background-color: rgb(172 14 14/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .active\:bg-button_icon_primary_active:active {
+    --tw-bg-opacity: 1;
+    background-color: rgb(174 176 181/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .active\:bg-button_icon_secondary_active:active {
+    background-color: transparent
+}
+
+.MyDisneyUi .active\:bg-button_primary_active:active {
+    background-color: var(--button_primary_active)
+}
+
+.MyDisneyUi .active\:bg-button_secondary_active:active {
+    --tw-bg-opacity: 1;
+    background-color: rgb(233 235 240/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .active\:text-button_destructive_active_text:active {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .active\:text-button_primary_active_text:active {
+    color: var(--button_primary_active_text)
+}
+
+.MyDisneyUi .active\:text-button_secondary_active_text:active {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .active\:text-text_link_hover:active {
+    --tw-text-opacity: 1;
+    color: rgb(0 16 160/var(--tw-text-opacity))
+}
+
+.MyDisneyUi .active\:underline:active {
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline
+}
+
+.MyDisneyUi .disabled\:pointer-events-none:disabled {
+    pointer-events: none
+}
+
+.MyDisneyUi .disabled\:cursor-not-allowed:disabled {
+    cursor: not-allowed
+}
+
+.MyDisneyUi .disabled\:border-button_destructive_disabled_border:disabled,
+.MyDisneyUi .disabled\:border-button_primary_disabled_border:disabled {
+    border-color: transparent
+}
+
+.MyDisneyUi .disabled\:border-button_secondary_disabled_border:disabled {
+    --tw-border-opacity: 1;
+    border-color: rgb(204 206 211/var(--tw-border-opacity))
+}
+
+.MyDisneyUi .disabled\:bg-button_destructive_disabled:disabled {
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 82 82/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .disabled\:bg-button_primary_disabled:disabled {
+    background-color: var(--button_primary_disabled)
+}
+
+.MyDisneyUi .disabled\:bg-button_secondary_disabled:disabled {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi .disabled\:text-button_destructive_disabled_text:disabled {
+    color: hsla(0, 0%, 100%, .6)
+}
+
+.MyDisneyUi .disabled\:text-button_primary_disabled_text:disabled {
+    color: #ffffff99
+}
+
+.MyDisneyUi .disabled\:text-button_secondary_disabled_text:disabled {
+    --tw-text-opacity: 1;
+    color: rgb(174 176 181/var(--tw-text-opacity))
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:bg-myDisney_blue-50) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(198 214 255/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:bg-toggle_bg_checked) {
+    background-color: var(--toggle_bg_checked)
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:\*\:fill-toggle_bg_checked>*) {
+    fill: var(--toggle_bg_checked)
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:\*\:fill-toggle_bg_checked_disabled>*) {
+    fill: var(--toggle_bg_checked_disabled)
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:before\:-translate-x-26):before {
+    content: var(--tw-content);
+    --tw-translate-x: -26px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:before\:translate-x-26):before {
+    content: var(--tw-content);
+    --tw-translate-x: 26px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:before\:bg-myDisney_blue-0):before {
+    content: var(--tw-content);
+    --tw-bg-opacity: 1;
+    background-color: rgb(230 238 255/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:hover\:bg-toggle_bg_checked_hover:hover) {
+    background-color: var(--toggle_bg_checked_hover)
+}
+
+.MyDisneyUi :is(.peer:checked~.peer-checked\:\*\:hover\:fill-toggle_bg_checked_hover:hover>*) {
+    fill: var(--toggle_bg_checked_hover)
+}
+
+.MyDisneyUi :is(.peer:focus~.peer-focus\:bg-grey-500) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(134 137 143/var(--tw-bg-opacity))
+}
+
+.MyDisneyUi :is(.peer:checked:focus~.peer-checked\:peer-focus\:bg-toggle_bg_checked_hover) {
+    background-color: var(--toggle_bg_checked_hover)
+}
+
+.MyDisneyUi .aria-\[selected\=true\]\:bg-dropdown_popover_item_selected_background[aria-selected=true] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(204 206 211/var(--tw-bg-opacity))
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .MyDisneyUi .motion-reduce\:transform-none {
+        transform: none
+    }
+
+    .MyDisneyUi .motion-reduce\:animate-dialog_fade_out_reduced_motion {
+        animation: fade_out .35s cubic-bezier(.26, 0, .6, .2) 0ms forwards
+    }
+
+    .MyDisneyUi .motion-reduce\:animate-dialog_primary_fade_in_reduced_motion {
+        animation: fade_in .35s cubic-bezier(.4, .8, .74, 1) 0ms forwards
+    }
+
+    .MyDisneyUi .motion-reduce\:animate-dialog_secondary_fade_in_reduced_motion {
+        animation: fade_in .35s cubic-bezier(.4, .8, .74, 1) .15s forwards
+    }
+
+    .MyDisneyUi .motion-reduce\:animate-dialog_secondary_fade_out_reduced_motion {
+        animation: fade_out .15s cubic-bezier(.26, 0, .6, .2) 0ms forwards
+    }
+
+    .MyDisneyUi .motion-reduce\:animate-none {
+        animation: none
+    }
+
+    .MyDisneyUi .motion-reduce\:opacity-100 {
+        opacity: 1
+    }
+}
+
+@media (min-width:480px) {
+    .MyDisneyUi .md\:mt-0 {
+        margin-top: 0
+    }
+
+    .MyDisneyUi .md\:mt-80 {
+        margin-top: 80px
+    }
+
+    .MyDisneyUi .md\:h-80 {
+        height: 80px
+    }
+
+    .MyDisneyUi .md\:w-360 {
+        width: 360px
+    }
+
+    .MyDisneyUi .md\:flex-\[0_0_80px\] {
+        flex: 0 0 80px
+    }
+
+    .MyDisneyUi .md\:grow-0 {
+        flex-grow: 0
+    }
+
+    .MyDisneyUi .md\:translate-y-60,
+    .MyDisneyUi .md\:translate-y-\[60px\] {
+        --tw-translate-y: 60px;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+    }
+
+    .MyDisneyUi .md\:animate-dialog_primary_fade_in_md {
+        animation: fade_in .3s cubic-bezier(.4, .8, .74, 1) .15s forwards, slide_web_container_up .66s cubic-bezier(.4, .8, .74, 1) .15s forwards
+    }
+
+    .MyDisneyUi .md\:animate-dialog_primary_fade_out_md {
+        animation: fade_out .25s cubic-bezier(.26, 0, .6, .2) 0ms forwards, slide_web_container_down .25s cubic-bezier(.26, 0, .6, .2) 0ms forwards
+    }
+
+    .MyDisneyUi .md\:flex-row {
+        flex-direction: row
+    }
+
+    .MyDisneyUi .md\:flex-wrap {
+        flex-wrap: wrap
+    }
+
+    .MyDisneyUi .md\:justify-center {
+        justify-content: center
+    }
+
+    .MyDisneyUi .md\:gap-x-36 {
+        -moz-column-gap: 36px;
+        column-gap: 36px
+    }
+
+    .MyDisneyUi .md\:gap-y-16 {
+        row-gap: 16px
+    }
+
+    .MyDisneyUi .md\:rounded-b-lg {
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px
+    }
+
+    .MyDisneyUi .md\:border-t-0 {
+        border-top-width: 0
+    }
+
+    .MyDisneyUi .md\:px-40 {
+        padding-left: 40px;
+        padding-right: 40px
+    }
+
+    .MyDisneyUi .md\:px-56 {
+        padding-left: 56px;
+        padding-right: 56px
+    }
+
+    .MyDisneyUi .md\:py-28 {
+        padding-top: 28px;
+        padding-bottom: 28px
+    }
+
+    .MyDisneyUi .md\:py-80 {
+        padding-top: 80px;
+        padding-bottom: 80px
+    }
+
+    .MyDisneyUi .md\:pb-32 {
+        padding-bottom: 32px
+    }
+
+    .MyDisneyUi .md\:pb-80 {
+        padding-bottom: 80px
+    }
+
+    .MyDisneyUi .md\:pt-24 {
+        padding-top: 24px
+    }
+
+    .MyDisneyUi .md\:before\:hidden:before {
+        content: var(--tw-content);
+        display: none
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+    @media (min-width:480px) {
+        .MyDisneyUi .motion-reduce\:md\:translate-y-0 {
+            --tw-translate-y: 0px;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+        }
+
+        .MyDisneyUi .motion-reduce\:md\:animate-dialog_primary_fade_in_reduced_motion {
+            animation: fade_in .35s cubic-bezier(.4, .8, .74, 1) 0ms forwards
+        }
+
+        .MyDisneyUi .motion-reduce\:md\:animate-none {
+            animation: none
+        }
+    }
+}
+
+@media (min-width:660px) {
+    .MyDisneyUi .lg\:\!mx-\[-24px\] {
+        margin-left: -24px !important;
+        margin-right: -24px !important
+    }
+
+    .MyDisneyUi .lg\:mx-0 {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .MyDisneyUi .lg\:\!mb-0 {
+        margin-bottom: 0 !important
+    }
+
+    .MyDisneyUi .lg\:\!mb-\[-20px\] {
+        margin-bottom: -20px !important
+    }
+
+    .MyDisneyUi .lg\:\!mt-\[-4px\] {
+        margin-top: -4px !important
+    }
+
+    .MyDisneyUi .lg\:mt-0 {
+        margin-top: 0
+    }
+
+    .MyDisneyUi .lg\:h-72 {
+        height: 72px
+    }
+
+    .MyDisneyUi .lg\:w-548 {
+        width: 548px
+    }
+
+    .MyDisneyUi .lg\:w-\[580px\] {
+        width: 580px
+    }
+
+    .MyDisneyUi .lg\:max-w-548 {
+        max-width: 548px
+    }
+
+    .MyDisneyUi .lg\:\!gap-\[normal\] {
+        gap: normal !important
+    }
+
+    .MyDisneyUi .lg\:gap-8 {
+        gap: 8px
+    }
+
+    .MyDisneyUi .lg\:\!px-24 {
+        padding-left: 24px !important;
+        padding-right: 24px !important
+    }
+
+    .MyDisneyUi .lg\:px-0 {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .MyDisneyUi .lg\:px-56 {
+        padding-left: 56px;
+        padding-right: 56px
+    }
+
+    .MyDisneyUi .lg\:px-72 {
+        padding-left: 72px;
+        padding-right: 72px
+    }
+
+    .MyDisneyUi .lg\:py-52 {
+        padding-top: 52px;
+        padding-bottom: 52px
+    }
+
+    .MyDisneyUi .lg\:py-56 {
+        padding-top: 56px;
+        padding-bottom: 56px
+    }
+
+    .MyDisneyUi .lg\:\!pb-24 {
+        padding-bottom: 24px !important
+    }
+
+    .MyDisneyUi .lg\:\!pt-16 {
+        padding-top: 16px !important
+    }
+
+    .MyDisneyUi .lg\:pb-0 {
+        padding-bottom: 0
+    }
+
+    .MyDisneyUi .lg\:pb-56 {
+        padding-bottom: 56px
+    }
+
+    .MyDisneyUi .lg\:pt-8 {
+        padding-top: 8px
+    }
+
+    .MyDisneyUi .lg\:text-lg {
+        font-size: 16px
+    }
+
+    .MyDisneyUi .lg\:text-xxl {
+        font-size: 28px
+    }
+
+    .MyDisneyUi .lg\:leading-h1 {
+        line-height: 40px
+    }
+
+    .MyDisneyUi .lg\:leading-lg {
+        line-height: 24px
+    }
+
+    .MyDisneyUi .lg\:after\:border-b-3:after {
+        content: var(--tw-content);
+        border-bottom-width: 3px
+    }
+}
+
+.MyDisneyUi :is(.\[\&\>\*\]\:animate-footer_child_fadeIn>*) {
+    animation: fade_in ease-quadOut_DSS .3s .35s forwards
+}
+
+.MyDisneyUi :is(.\[\&\>\.BrandLogo\]\:animate-branded_logo_fade_in>.BrandLogo) {
+    animation: fade_in .35s cubic-bezier(.4, .8, .74, 1) .15s forwards
+}
+
+.MyDisneyUi :is(.\[\&\>\.BrandLogo\]\:opacity-0>.BrandLogo) {
+    opacity: 0
+}
+
+.MyDisneyUi :is(.\[\&\>\.TextLink\]\:text-left>.TextLink) {
+    text-align: left
+}
+
+.MyDisneyUi :is(.\[\&\>\.TextLink\]\:text-footer_text_link>.TextLink) {
+    --tw-text-opacity: 1;
+    color: rgb(95 97 102/var(--tw-text-opacity))
+}
+
+.MyDisneyUi :is(.\[\&\>\.TextLink\]\:no-underline>.TextLink) {
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none
+}
+
+.MyDisneyUi :is(.hover\:\[\&\>\.TextLink\]\:text-footer_text_link_hover>.TextLink:hover) {
+    --tw-text-opacity: 1;
+    color: rgb(37 37 38/var(--tw-text-opacity))
+}
+
+.MyDisneyUi :is(.\[\&\>\.branded-logo\]\:h-36>.branded-logo) {
+    height: 36px
+}
+
+.MyDisneyUi :is(.\[\&\>\.branded-logo\]\:animate-branded_logo_fade_in>.branded-logo) {
+    animation: fade_in .35s cubic-bezier(.4, .8, .74, 1) .15s forwards
+}
+
+.MyDisneyUi :is(.\[\&\>\.branded-logo\]\:self-start>.branded-logo) {
+    align-self: flex-start
+}
+
+.MyDisneyUi :is(.\[\&\>\.branded-logo\]\:opacity-0>.branded-logo) {
+    opacity: 0
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .MyDisneyUi :is(.\[\&\>\.branded-logo\]\:motion-reduce\:animate-dialog_branded_logo_fade_in_reduced_motion>.branded-logo) {
+        animation: fade_in .35s cubic-bezier(.4, .8, .74, 1) .15s forwards
+    }
+}
+
+@media (min-width:660px) {
+    .MyDisneyUi :is(.lg\:\[\&\>\.branded-logo\]\:h-40>.branded-logo) {
+        height: 40px
+    }
+}
+
+.MyDisneyUi :is(.\[\&\>div\]\:m-0>div) {
+    margin: 0
+}
+
+.MyDisneyUi :is(.\[\&\>div\]\:self-start>div) {
+    align-self: flex-start
+}
+
+.MyDisneyUi :is(.\[\&\>div\]\:text-md>div) {
+    font-size: 14px
+}
+
+.MyDisneyUi :is(.\[\&\>div\]\:leading-lg>div) {
+    line-height: 24px
+}
+
+.MyDisneyUi :is(.\[\&\>div\]\:text-text_secondary>div) {
+    --tw-text-opacity: 1;
+    color: rgb(95 97 102/var(--tw-text-opacity))
+}
+
+.MyDisneyUi :is(.\[\&\>form\]\:flex>form) {
+    display: flex
+}
+
+.MyDisneyUi :is(.\[\&\>form\]\:flex-initial>form) {
+    flex: 0 1 auto
+}
+
+.MyDisneyUi :is(.\[\&\>form\]\:flex-col>form) {
+    flex-direction: column
+}
+
+.MyDisneyUi :is(.\[\&\>form\]\:gap-24>form) {
+    gap: 24px
+}
+
+.MyDisneyUi :is(.\[\&\>img\]\:origin-\[bottom_center\]>img) {
+    transform-origin: bottom center
+}
+
+.MyDisneyUi :is(.\[\&\>img\]\:scale-80>img) {
+    --tw-scale-x: 0.8;
+    --tw-scale-y: 0.8;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@media (min-width:480px) {
+    .MyDisneyUi :is(.md\:\[\&\>img\]\:scale-100>img) {
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+    }
+}
+
+.MyDisneyUi :is(.\[\&\>p\]\:self-start>p) {
+    align-self: flex-start
+}
+
+.MyDisneyUi :is(.\[\&\>p\]\:text-left>p) {
+    text-align: left
+}
+
+@media (min-width:480px) {
+    .MyDisneyUi :is(.md\:\[\&\>p\]\:text-center>p) {
+        text-align: center
+    }
+}
+
+.MyDisneyUi :is(.\[\&\>svg\]\:origin-\[bottom_center\]>svg) {
+    transform-origin: bottom center
+}
+
+.MyDisneyUi :is(.\[\&\>svg\]\:scale-80>svg) {
+    --tw-scale-x: 0.8;
+    --tw-scale-y: 0.8;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+@media (min-width:480px) {
+    .MyDisneyUi :is(.md\:\[\&\>svg\]\:scale-100>svg) {
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+    }
+}

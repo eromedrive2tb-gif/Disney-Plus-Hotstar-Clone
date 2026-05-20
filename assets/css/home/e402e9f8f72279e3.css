@@ -1,0 +1,976 @@
+._3hfmbw2p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+._3hfmbw2q {
+    flex-shrink: 0;
+    flex-grow: 0;
+    box-sizing: border-box
+}
+
+.naqz0b0 {
+    justify-content: center
+}
+
+.naqz0bi {
+    justify-content: space-between
+}
+
+@media screen and (min-width:769px) {
+    .naqz0b1 {
+        justify-content: center
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .naqz0b2 {
+        justify-content: center
+    }
+}
+
+._1g6ta6x0>:first-child {
+    margin-top: 0
+}
+
+._1g6ta6x0>:last-child {
+    margin-bottom: 0
+}
+
+._1g6ta6x5>:first-child {
+    margin-top: 4px
+}
+
+._161b62f0>:first-child {
+    margin-top: 0
+}
+
+._161b62f0>:last-child {
+    margin-bottom: 0
+}
+
+.loqabf0>:first-child {
+    margin-top: 0
+}
+
+.loqabf0>:last-child {
+    margin-bottom: 0
+}
+
+._1s24oie0 {
+    fill: inherit
+}
+
+._1s24oie1 {
+    fill: none;
+    stroke: inherit;
+    stroke-miterlimit: 10;
+    stroke-width: 33px
+}
+
+:is( h2, h3, h6, p) picture {
+    display: inline-block;
+    margin-bottom: 0
+}
+
+:is( section, footer) picture img {
+    display: block;
+    height: auto;
+    width: 100%
+}
+
+._8kkxbz6 {
+    vertical-align: top
+}
+
+._8kkxbz7 {
+    margin: 0
+}
+
+._8kkxbz7 img:not([src]) {
+    display: none
+}
+
+@media screen and (max-width:440px) {
+    ._8kkxbz6 {
+        max-width: var(--_8kkxbz0)
+    }
+}
+
+@media screen and (max-width:768px) {
+    ._8kkxbz6 {
+        max-width: var(--_8kkxbz1)
+    }
+}
+
+@media screen and (min-width:769px) {
+    ._8kkxbz6 {
+        max-width: var(--_8kkxbz2)
+    }
+}
+
+@media screen and (min-width:1025px) {
+    ._8kkxbz6 {
+        max-width: var(--_8kkxbz3)
+    }
+}
+
+@media screen and (min-width:1290px) {
+    ._8kkxbz6 {
+        max-width: var(--_8kkxbz4)
+    }
+}
+
+@media screen and (min-width:1600px) {
+    ._8kkxbz6 {
+        max-width: var(--_8kkxbz5)
+    }
+}
+
+.irvfeg0:first-child {
+    margin-top: 0
+}
+
+.irvfeg1:after {
+    padding-bottom: 24px
+}
+
+.irvfeg1>:first-child {
+    margin-top: 0
+}
+
+._1g5o7ic2:hover {
+    background-color: var(--_1h179j1t)
+}
+
+._1g5o7ic3:hover {
+    background-color: var(--_1h179j1t)
+}
+
+._1anuty40:first-child {
+    margin-top: 0
+}
+
+._1anuty40:last-child {
+    margin-bottom: 0
+}
+
+._1anuty40:has([data-testid=flip-card]) {
+    max-width: -moz-fit-content;
+    max-width: fit-content
+}
+
+._1anuty4b:after {
+    content: "";
+    background: #f9f9f9;
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    display: block;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+._1anuty4b:first-child:after {
+    display: none
+}
+
+._1anuty4d div>:first-child,
+._1anuty4d>:first-child {
+    margin-top: 0
+}
+
+._1anuty4d div>:last-child,
+._1anuty4d>:last-child {
+    margin-bottom: 0
+}
+
+._1anuty40>:first-child {
+    margin-top: 0
+}
+
+._1anuty40>:last-child {
+    margin-bottom: 0
+}
+
+@media screen and (max-width:768px) {
+
+    ._1anuty4b:after {
+        width: 150px;
+        height: 1px;
+        left: 50%;
+        top: -12px;
+        align-self: center;
+        transform: translateX(-50%)
+    }
+}
+
+:root {
+    --_1h179j0: #0072d2;
+    --_1h179j1: #0682f0;
+    --_1h179j2: linear-gradient(135deg, #fec341, #f1e68a 52%, #fec341);
+    --_1h179j3: linear-gradient(135deg, #fec341, #fdeea1 50%, #fec341);
+    --_1h179j4: silver;
+    --_1h179j5: #f9f9f9;
+    --_1h179j6: #0e0b14;
+    --_1h179j7: #13151d;
+    --_1h179j8: #40424a;
+    --_1h179j9: rgba(0, 0, 0, .8);
+    --_1h179ja: #1a1d29;
+    --_1h179jb: #02172a;
+    --_1h179jc: #f9f9f9;
+    --_1h179jd: #31343e;
+    --_1h179je: #02d6e8;
+    --_1h179jf: #31343e;
+    --_1h179jg: #040714;
+    --_1h179jw: #040714;
+    --_1h179jx: transparent;
+    --_1h179jy: #02d6e8;
+    --_1h179jz: #040714;
+    --_1h179j10: transparent;
+    --_1h179j11: #02d6e8;
+    --_1h179j12: #f9f9f9;
+    --_1h179j13: #f9f9f9;
+    --_1h179j14: transparent;
+    --_1h179j15: #040714;
+    --_1h179j16: #f9f9f9;
+    --_1h179j17: #f9f9f9;
+    --_1h179j1a: #02172a;
+    --_1h179j19: #31343e;
+    --_1h179j18: #f9f9f9;
+    --_1h179j1n: rgba(0, 0, 0, .69) -2px 3px 20px 0px, rgba(0, 0, 0, .73) 0px 16px 10px -10px;
+    --_1h179j1o: 1px -20px 14px -18px rgba(0, 0, 0, .8), 2px 12px 13px -3px rgba(0, 0, 0, .72);
+    --_1h179js: #f9f9f9;
+    --_1h179jt: #f9f9f9;
+    --_1h179ju: #02d6e8;
+    --_1h179jv: #02d6e8;
+    --_1h179j1b: rgba(0, 0, 0, .8);
+    --_1h179j1c: #f9f9f9;
+    --_1h179j1d: #1a1d29;
+    --_1h179j1e: #31343e;
+    --_1h179j1f: #fff;
+    --_1h179j1g: 2px;
+    --_1h179j1h: 4px;
+    --_1h179j1i: 4px;
+    --_1h179j1j: 24px;
+    --_1h179j1k: 16px;
+    --_1h179j1l: 20px;
+    --_1h179j1m: 24px;
+    --_1h179jh: silver;
+    --_1h179ji: #040714;
+    --_1h179jj: 14px;
+    --_1h179jk: #f9f9f9;
+    --_1h179jl: #040714;
+    --_1h179jm: 44px;
+    --_1h179jn: 32px;
+    --_1h179jo: 24px;
+    --_1h179jp: 18px;
+    --_1h179jq: 14px;
+    --_1h179jr: 12px;
+    --_1h179j1p: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' width='1em' height='1em' fill='currentColor' xmlns='http://www.w3.org/2000/svg' data-testid='ChevronDownIcon' focusable='false' aria-hidden='true'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.707 16.707a1 1 0 01-1.414 0l-8-8a1 1 0 011.414-1.414L12 14.586l7.293-7.293a1 1 0 111.414 1.414l-8 8z'%3E%3C/path%3E%3C/svg%3E");
+    --_1h179j1q: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' width='1em' height='1em' fill='currentColor' xmlns='http://www.w3.org/2000/svg' data-testid='ChevronUpIcon' focusable='false' aria-hidden='true'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11.293 7.293a1 1 0 011.414 0l8 8a1 1 0 01-1.414 1.414L12 9.414l-7.293 7.293a1 1 0 01-1.414-1.414l8-8z'%3E%3C/path%3E%3C/svg%3E");
+    --_1h179j1r: 14px;
+    --_1h179j1s: #e8eaed;
+    --_1h179j1t: #ccc;
+    --_1h179j1u: #0b0c0f;
+    --_1h179j1v: 4px;
+    --_1h179j1w: 16px;
+    --_1h179j1x: 6px 8px;
+    --_1h179j1y: #e5e5e5;
+    --_1h179j1z: 0px 7px 6px rgba(0, 0, 0, .7);
+    --_1h179j20: linear-gradient(179.81deg, rgba(4, 4, 4, .7) .17%, rgba(4, 4, 4, .45) 85.02%, rgba(4, 4, 4, .3) 112.52%);
+    --_1h179j21: #0b0c0f;
+    --_1h179j22: 14px;
+    --_1h179j23: 600;
+    --_1h179j24: #272c34;
+    --_1h179j25: 12px;
+    --_1h179j26: 500;
+    --_1h179j27: #0b0c0f;
+    --_1h179j28: 14px;
+    --_1h179j29: 400;
+    --_1h179j2a: #02172a;
+    --_1h179j2b: linear-gradient(180deg, rgba(0, 0, 0, .76) 15.54%, rgba(0, 0, 0, .192) 60.23%, rgba(0, 0, 0, 8e-05));
+    --_1h179j2c: rgba(11, 12, 15, .13);
+    --_1h179j2d: radial-gradient(at left top, #43f 5%, rgba(68, 51, 255, 0) 70%);
+    --_1h179j2e: linear-gradient(5deg, #000, transparent 50%), radial-gradient(ellipse at top right, rgba(0, 0, 0, .5) 0%, transparent 20%);
+    --_1h179j2f: #1d1f2b;
+    --_1h179j2g: #31343e;
+    --_1h179j2h: 2px solid hsla(0, 0%, 100%, .1);
+    --_1h179j2i: 1px solid hsla(0, 0%, 75%, .3);
+    --_1h179j2j: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='19' viewBox='0 0 21 19' fill='none'%3E%3Cpath d='M3.347 10.655A1.667 1.667 0 0 0 .99 13.012l5 5a1.667 1.667 0 0 0 2.433-.081L20.09 4.598a1.667 1.667 0 0 0-2.509-2.195L7.087 14.395l-3.74-3.74z' fill='%23F9F9F9'/%3E%3C/svg%3E");
+    --_1h179j2k: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='37' height='37' viewBox='0 0 37 37' fill='none'%3E%3Cpath d='M28.875 17.525v1.953a1.307 1.307 0 0 1-1.306 1.305H10.18a1.306 1.306 0 0 1-1.306-1.305v-1.956c0-.72.585-1.305 1.306-1.305l17.389.002c.721 0 1.306.584 1.305 1.306z' fill='silver' fill-opacity='.3'/%3E%3C/svg%3E");
+    --_1h179j2l: url('data:image/svg+xml,<svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon Component"><path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M13.3552 0.195325C13.7001 -0.138365 14.2112 -0.0250998 14.436 0.397279C14.5092 0.52786 14.5455 0.684696 14.5455 0.844762C14.5455 1.09114 14.4552 1.33233 14.284 1.49497L7.72655 7.80666C7.45902 8.06449 7.06665 8.06449 6.79731 7.8064L0.258115 1.49335C-0.0212636 1.22155 -0.0783647 0.749797 0.108926 0.39648C0.333996 -0.0262222 0.843878 -0.138754 1.18944 0.195012L7.26283 6.05847L13.3552 0.195325Z" fill="%23F9F9F9"/></g></svg>');
+    --_1h179j2m: #f9f9f9;
+    --_1h179j2n: #040714;
+    --_1h179j2o: #0e0b14;
+    --_1h179j2p: silver;
+    --_1h179j2q: #f9f9f9;
+    --_1h179j2r: 2px solid #e8eaed;
+    --_1h179j2s: #f33;
+    --_1h179j2t: #43f;
+    --_1h179j2u: url('data:image/svg+xml,<svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Icon Component"><path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M13.3552 0.195325C13.7001 -0.138365 14.2112 -0.0250998 14.436 0.397279C14.5092 0.52786 14.5455 0.684696 14.5455 0.844762C14.5455 1.09114 14.4552 1.33233 14.284 1.49497L7.72655 7.80666C7.45902 8.06449 7.06665 8.06449 6.79731 7.8064L0.258115 1.49335C-0.0212636 1.22155 -0.0783647 0.749797 0.108926 0.39648C0.333996 -0.0262222 0.843878 -0.138754 1.18944 0.195012L7.26283 6.05847L13.3552 0.195325Z" fill="%23F9F9F9"/></g></svg>');
+    --_1h179j2v: #f9f9f9;
+    --_1h179j2w: #31343e;
+    --_1h179j2x: #054553
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Regular.f2199f841165c4ddbafcf177da3ef974.woff2);
+    font-family: Inspire
+}
+
+@font-face {
+    preload: true;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Bold.4ff15ddc93445342649194969715b0b5.woff2);
+    font-family: Inspire
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Regular.c92c9b86823358408a1227800f100720.woff2);
+    font-family: Inspire-JP
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-jp/InspireJP-Bold.69e39ed68847d8efc12e88b589f93407.woff2);
+    font-family: Inspire-JP
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Regular.dd56826529a5cf37cf650680f7b063b0.woff2);
+    font-family: Inspire-KO
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-kr/InspireKR-Bold.6a7047549e067f2b357876a5010d9b89.woff2);
+    font-family: Inspire-KO
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Regular.38b74be328515fd1914cc850be5f9589.woff2);
+    font-family: Inspire-SC
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-sc/InspireSC-Bold.b367bf153b5918acc21d0da0e31857e3.woff2);
+    font-family: Inspire-SC
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Regular.e43d66bdeb53956bcbe1af4d3aae8140.woff2);
+    font-family: Inspire-TC
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-tc/InspireTC-Bold.adfe6628042563b84734415ea972161a.woff2);
+    font-family: Inspire-TC
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-he/InspireHE-Regular.0a16e9ed87ef7fcbf0728dd686e83139.woff2);
+    font-family: Inspire-HE
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-he/InspireHE-Bold.f9de5062d473e7e923db98376f7a173c.woff2);
+    font-family: Inspire-HE
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-ar/InspireAR-Regular.c1801e3bc7f68e1805cdd2e0170c4455.woff2);
+    font-family: Inspire-AR
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-ar/InspireAR-Bold.10bd56cfb8c6c6393d4584ddc4e9d292.woff2);
+    font-family: Inspire-AR
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-th/InspireTH-Regular.c7ac053b68a8dee8bd262c842fc99d34.woff2);
+    font-family: Inspire-TH
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-th/InspireTH-Bold.e3a2b0640fe33a12487ba2f670d0970f.woff2);
+    font-family: Inspire-TH
+}
+
+@font-face {
+    preload: true;
+    font-weight: 400;
+    font-style: normal;
+    font-display: optional;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-thl/InspireTHL-Light.bde66df39b81708e5b21d8b27810369e.woff2);
+    font-family: Inspire-THL
+}
+
+@font-face {
+    preload: false;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url(https://static-assets.bamgrid.com/fonts/inspire-thl/InspireTHL-Regular.2bb4aa9ced5d57730e2caeea81234002.woff2);
+    font-family: Inspire-THL
+}
+
+.typeramp-inspire {
+    font-family: Inspire, sans-serif
+}
+
+body {
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+h2 {
+    font-size: 32px
+}
+
+h2,
+h3 {
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+@media screen and (min-width:1025px) {
+
+    
+    p {
+        margin-top: 24px;
+        margin-bottom: 24px
+    }
+
+    h2 {
+        font-size: 40px
+    }
+
+    h2,
+    h3 {
+        margin-top: 24px;
+        margin-bottom: 24px
+    }
+
+    h3 {
+        font-size: 28px
+    }
+
+    
+    h6 {
+        font-size: 16px
+    }
+
+    
+    h6 {
+        margin-top: 24px;
+        margin-bottom: 24px
+    }
+}
+
+@keyframes _10ms0t00 {
+    0% {
+        overflow: hidden
+    }
+
+    to {
+        overflow: hidden
+    }
+}
+
+._10ms0t08:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 3px;
+    height: 100%;
+    transition: all .25s;
+    background: var(--_1h179jy)
+}
+
+._10ms0t09:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 3px;
+    height: 0;
+    transition: all .25s
+}
+
+._10ms0t09:focus-within:after,
+._10ms0t09:hover:after {
+    height: 100%;
+    transition: all .25s;
+    background: var(--_1h179jy)
+}
+
+._10ms0t0a:after,
+._10ms0t0a:focus-within:after {
+    display: none
+}
+
+._10ms0t0b:after {
+    height: 100%;
+    transition: all .25s;
+    background: var(--_1h179j5)
+}
+
+body:has(._10ms0t0e) {
+    overflow: hidden;
+    height: 100%
+}
+
+.k46tms0 a:hover {
+    color: var(--_1h179jt)
+}
+
+._11e3imh1:hover {
+    box-shadow: 0 0 0 4px #8b94a7;
+    border-radius: 16px;
+    transition: .35s ease-in-out;
+    overflow: hidden
+}
+
+._11e3imh1:hover>._11e3imh6 {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden
+}
+
+._11e3imh1:hover>._11e3imh6 {
+    height: 100%;
+    position: absolute;
+    opacity: .5;
+    background-color: rgba(4, 4, 5, .4);
+    transition: .35s ease-in-out
+}
+
+picture img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+
+h2 picture,
+h3 picture,
+h6 picture,
+p picture {
+    display: inline-block;
+    margin-bottom: 0
+}
+
+a {
+    color: var(--_1h179js)
+}
+
+._1v09vqe2:focus,
+._1v09vqe2:hover {
+    outline: none
+}
+
+._1v09vqe5:focus,
+._1v09vqe5:hover {
+    transform: scale(1.125) translateZ(0);
+    background-image: url(https://static-assets.bamgrid.com/product/disneyplus/images/info-icon-default.d7d778093592e78ae02122d586a25e6a.svg)
+}
+
+._1v09vqe7:focus,
+._1v09vqe7:hover {
+    transform: scale(1.125) translateZ(0)
+}
+
+._1v09vqe8 :is( h2, h3, h6) {
+    margin-top: 0
+}
+
+@media screen and (min-width:1025px) {
+
+    ._1v09vqe1:focus,
+    ._1v09vqe1:hover,
+    ._1v09vqe2:focus,
+    ._1v09vqe2:hover {
+        border-color: #02d6e8
+    }
+}
+
+._1welth32 a:focus {
+    outline: 0
+}
+
+.jzokq20:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    width: 0;
+    height: 3px;
+    transform: translateX(-50%);
+    transition: all .25s
+}
+
+.jzokq22:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+    display: block;
+    width: 3px;
+    height: 0
+}
+
+.jzokq23:after {
+    width: 100%;
+    height: 3px;
+    left: 50%
+}
+
+.jzokq23:after,
+.jzokq24:after {
+    bottom: 0;
+    transition: all .25s;
+    background: var(--_1h179j5)
+}
+
+.jzokq24:after {
+    width: 4px;
+    height: 100%;
+    left: 1px
+}
+
+.jzokq25:after {
+    width: 100%;
+    transition: all .25s;
+    background: var(--_1h179jy)
+}
+
+section:has(._5t2i8l0),
+section:has([id^=comparison-chart-]) {
+    padding-left: 0;
+    padding-right: 0
+}
+
+._5t2i8l0 div[role=rowgroup] div[role=cell]:first-of-type {
+    text-align: left
+}
+
+._5t2i8la:hover {
+    cursor: pointer
+}
+
+._5t2i8lg div[role=cell]>:first-child {
+    margin-top: 0
+}
+
+._5t2i8lg div[role=cell]>:last-child {
+    margin-bottom: 0
+}
+
+._5t2i8l8 :first-of-type div[role=cell]:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: inherit;
+    opacity: 0;
+    pointer-events: none
+}
+
+@media screen and (min-width:769px) {
+
+    section:has(._5t2i8l0),
+    section:has([id^=comparison-chart-]) {
+        padding-left: 5.6vw;
+        padding-right: 5.6vw
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    ._5t2i8l0 div[role=rowgroup] div[role=cell]:first-of-type {
+        flex: 0 0 100%;
+        text-align: center
+    }
+}
+
+._15nyja91:not(:last-child):after {
+    content: "•";
+    padding: 0 4px
+}
+
+._15nyja93:not(:last-child):after {
+    content: ", "
+}
+
+.qovhm90:not(:last-child):after {
+    content: ", "
+}
+
+._11y78o00 :after {
+    color: #586174
+}
+
+._11y78o02 p:not(:last-child) {
+    margin: 0 0 2px
+}
+
+._11y78o02 p:last-child {
+    margin: 0
+}
+
+._1v6rkb22:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 180px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .76) 15.54%, rgba(0, 0, 0, .192) 60.23%, rgba(0, 0, 0, .00008))
+}
+
+._1v6rkb2v:after {
+    content: " "
+}
+
+@media screen and (max-width:768px) {
+
+    ._1v6rkb2l ._1v6rkb2m:last-child {
+        margin-bottom: 6px
+    }
+}
+
+._1w9qqng3 p:not(:last-child) {
+    margin: 0 0 2px
+}
+
+._1w9qqng3 p:last-child {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+button,
+select {
+    font-family: inherit
+}
+
+._9qq9r0>:first-child {
+    margin-top: 0
+}
+
+._9qq9r0>:last-child {
+    margin-bottom: 0
+}
+
+._16s17gs0:hover {
+    background-color: var(--_1h179j11);
+    color: var(--_1h179jz);
+    border: var(--_1h179j10)
+}
+
+._16s17gs1:hover {
+    background-color: var(--_1h179j17);
+    color: var(--_1h179j15);
+    border: var(--_1h179j16)
+}
+
+.rtqu3o4:hover {
+    color: #176ee1
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background: var(--_1h179ja)
+}
+
+@media screen and (max-width:768px) {
+
+    ._1ecbi6f1::-webkit-scrollbar {
+        display: none
+    }
+}
+
+.kn0it77+.kn0it77:before {
+    content: " • ";
+    white-space: pre
+}
+
+.kn0it78+.kn0it78:before {
+    content: ", "
+}
+
+.kn0it7f:hover {
+    color: #94d0ff
+}
+
+.gra1le1::-webkit-scrollbar {
+    display: none
+}
+
+.gra1le3:focus,
+.gra1le3:hover {
+    opacity: 1;
+    background-color: transparent
+}
+
+.gra1le6:disabled {
+    opacity: 0;
+    cursor: not-allowed;
+    pointer-events: none
+}
+
+.gra1lea:last-child {
+    scroll-snap-align: end
+}
+
+.gra1lea>:last-child {
+    margin-bottom: 0
+}
+
+.gra1lea:first-child {
+    padding-left: calc(3.5vw + 24px)
+}
+
+.gra1lea:first-child,
+.gra1lea:last-child {
+    flex-basis: calc(43.75% + (3.5vw + 24px - 10px))
+}
+
+.gra1lea:last-child {
+    padding-right: calc(3.5vw + 24px)
+}
+
+.gra1lea:first-child:last-child {
+    padding-right: 0
+}
+
+@media screen and (min-width:769px) {
+
+    .gra1lea:first-child,
+    .gra1lea:last-child {
+        flex-basis: calc(29.75% + (3.5vw + 24px - 10px))
+    }
+}
+
+@media screen and (min-width:1025px) {
+
+    .gra1lea:first-child,
+    .gra1lea:last-child {
+        flex-basis: calc(22.75% + (3.5vw + 24px - 10px))
+    }
+}
+
+@media screen and (min-width:1290px) {
+
+    .gra1lea:first-child,
+    .gra1lea:last-child {
+        flex-basis: calc(18.25% + (3.5vw + 24px - 10px))
+    }
+}
+
+body {
+    color: var(--_1h179jh)
+}
+
+
+h2,
+h3,
+h6 {
+    color: var(--_1h179jk)
+}
