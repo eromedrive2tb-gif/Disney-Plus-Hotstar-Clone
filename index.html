@@ -14,6 +14,9 @@
 
     <!-- ------------------ Style Sheet ------------------ -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- ------------------ HTMX ------------------ -->
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
 </head>
 
 <body>
@@ -38,36 +41,53 @@
 
     <!-- ------------------ Carousel ------------------ -->
     <div class="carousel-container">
-        <div class="carousel">
-            <!-- <div class="slider">
+        <div class="carousel" 
+             hx-get="/api/carousel/next?current=0" 
+             hx-trigger="load, every 5s" 
+             hx-swap="innerHTML">
+            <!-- O primeiro slide será carregado aqui via HTMX -->
+            <div class="slider">
                 <div class="slide-content">
-                    <h1 class="movie-title">loki</h1>
-                    <p class="movie-des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam distinctio molestiae quis praesentium cum obcaecati eveniet voluptates exercitationem eum accusantium.</p>
+                    <h1 class="movie-title">Loading...</h1>
                 </div>
-                <img src="./assets/img/slider 1.png" alt="Slider">
-            </div> -->
+            </div>
         </div>
     </div>
 
     <!-- ------------------ Video Card ------------------ -->
     <div class="video-card-container">
-        <div class="video-card">
+        <div class="video-card" 
+             hx-get="/api/video/play?id=disney" 
+             hx-trigger="mouseenter" 
+             hx-swap="innerHTML">
             <img src="./assets/img/disney.png" class="video-card-image" alt="">
             <video src="./assets/video/disney.mp4" mute loop class="card-video"></video>
         </div>
-        <div class="video-card">
+        <div class="video-card" 
+             hx-get="/api/video/play?id=pixar" 
+             hx-trigger="mouseenter" 
+             hx-swap="innerHTML">
             <img src="./assets/img/pixar.png" class="video-card-image" alt="">
             <video src="./assets/video/pixar.mp4" mute loop class="card-video"></video>
         </div>
-        <div class="video-card">
+        <div class="video-card" 
+             hx-get="/api/video/play?id=marvel" 
+             hx-trigger="mouseenter" 
+             hx-swap="innerHTML">
             <img src="./assets/img/marvel.png" class="video-card-image" alt="">
             <video src="./assets/video/marvel.mp4" mute loop class="card-video"></video>
         </div>
-        <div class="video-card">
+        <div class="video-card" 
+             hx-get="/api/video/play?id=star-wars" 
+             hx-trigger="mouseenter" 
+             hx-swap="innerHTML">
             <img src="./assets/img/star-wars.png" class="video-card-image" alt="">
             <video src="./assets/video/star-war.mp4" mute loop class="card-video"></video>
         </div>
-        <div class="video-card">
+        <div class="video-card" 
+             hx-get="/api/video/play?id=geographic" 
+             hx-trigger="mouseenter" 
+             hx-swap="innerHTML">
             <img src="./assets/img/geographic.png" class="video-card-image" alt="">
             <video src="./assets/video/geographic.mp4" mute loop class="card-video"></video>
         </div>
@@ -76,418 +96,142 @@
     <!-- ------------------ Recommendation ------------------ -->
     <h1 class="title">recommended for you</h1>
     <div class="movies-list">
-        <button class="pre-btn"><img src="./assets/img/pre.png" alt=""></button>
-        <button class="nxt-btn"><img src="./assets/img/nxt.png" alt=""></button>
-        <div class="card-container">
-            <div class="card">
-                <img src="./assets/img/poster 4.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Chichore</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 4.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Avengers Endgame</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 11.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Ford v Ferrari</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 2.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Mulan</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 1.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Loki</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 5.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Thor Ragnarok</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 6.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Avengers</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 10.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Ok Computer</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 11.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Dil Bechara</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 8.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Soul</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 13.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">The Office</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 10.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Luca</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 12.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Dark Phoenix</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 12.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">TanHaji</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 14.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Euphoria</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
+        <button class="pre-btn" 
+                hx-get="/api/movies?category=recommended&page=1" 
+                hx-target="#recommended-container" 
+                hx-swap="innerHTML"><img src="./assets/img/pre.png" alt=""></button>
+        <button class="nxt-btn" 
+                hx-get="/api/movies?category=recommended&page=2" 
+                hx-target="#recommended-container" 
+                hx-swap="innerHTML"><img src="./assets/img/nxt.png" alt=""></button>
+        <div class="card-container" id="recommended-container" 
+             hx-get="/api/movies?category=recommended&page=1" 
+             hx-trigger="load" 
+             hx-swap="innerHTML">
+            <!-- Cards serão injetados pelo Mock API via TMDB -->
+            <div class="card"><div class="card-body"><h2 class="name">Loading...</h2></div></div>
         </div>
     </div>
 
     <!-- ------------------ Papular Shows ------------------ -->
     <h1 class="title">Popular Shows</h1>
     <div class="movies-list">
-        <button class="pre-btn"><img src="./assets/img/pre.png" alt=""></button>
-        <button class="nxt-btn"><img src="./assets/img/nxt.png" alt=""></button>
-        <div class="card-container">
-            <div class="card">
-                <img src="./assets/img/card 3.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Yeh Rishta</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 4.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Anupama</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 2.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Imlie</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 1.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">City of Dreams</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 5.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Shin-chan</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 8.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Doraemon</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 9.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Mahadev</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 7.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Grahan</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 6.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Pandya Store</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 10.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Luca</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 15.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Mahabharat</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 16.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">RadhaKrishn</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 17.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Phineas and Ferb</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 1.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Loki</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 18.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Special Ops</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 19.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Hostages</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/card 20.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Criminal Justice</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
+        <button class="pre-btn" 
+                hx-get="/api/movies?category=popular&page=1" 
+                hx-target="#popular-container" 
+                hx-swap="innerHTML"><img src="./assets/img/pre.png" alt=""></button>
+        <button class="nxt-btn" 
+                hx-get="/api/movies?category=popular&page=2" 
+                hx-target="#popular-container" 
+                hx-swap="innerHTML"><img src="./assets/img/nxt.png" alt=""></button>
+        <div class="card-container" id="popular-container"
+             hx-get="/api/movies?category=popular&page=1" 
+             hx-trigger="load" 
+             hx-swap="innerHTML">
+            <div class="card"><div class="card-body"><h2 class="name">Loading...</h2></div></div>
         </div>
     </div>
 
     <!-- ------------------ New Releases ------------------ -->
     <h1 class="title">New Releases</h1>
     <div class="movies-list">
-        <button class="pre-btn"><img src="./assets/img/pre.png" alt=""></button>
-        <button class="nxt-btn"><img src="./assets/img/nxt.png" alt=""></button>
-        <div class="card-container">
-            <div class="card">
-                <img src="./assets/img/poster 3.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Collar Bomb</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 5.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">WandaVision</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 8.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Carbon</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 1.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Hungama 2</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 2.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Hanuman</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 9.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Boys Don't Cry</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 10.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Shaadisthan</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 1.png" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Loki</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 7.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Love, Simon</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 14.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Betty</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 15.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Chhuri</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 16.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Cars 3</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 13.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Pose</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 6.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Modern Family</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 17.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Brave</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/img/poster 18.webp" class="card-img" alt="">
-                <div class="card-body">
-                    <h2 class="name">Dil Bechara</h2>
-                    <h6 class="des">Lorem ipsum dolor sit consectetur elit.</h6>
-                    <button class="watchlist-btn">add to watchlist</button>
-                </div>
-            </div>
+        <button class="pre-btn" 
+                hx-get="/api/movies?category=new&page=1" 
+                hx-target="#new-container" 
+                hx-swap="innerHTML"><img src="./assets/img/pre.png" alt=""></button>
+        <button class="nxt-btn" 
+                hx-get="/api/movies?category=new&page=2" 
+                hx-target="#new-container" 
+                hx-swap="innerHTML"><img src="./assets/img/nxt.png" alt=""></button>
+        <div class="card-container" id="new-container"
+             hx-get="/api/movies?category=new&page=1" 
+             hx-trigger="load" 
+             hx-swap="innerHTML">
+            <div class="card"><div class="card-body"><h2 class="name">Loading...</h2></div></div>
         </div>
     </div>
 
-    <!-- ------------------ JavaScript ------------------ -->
-    <script src="./assets/js/data.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <!-- ------------------ JavaScript (HTMX handles logic now) ------------------ -->
+    <script>
+        // Simulador de Backend (Mock API) para HTMX
+        // Intercepta chamadas /api/ e injeta HTML usando o motor do HTMX
+        
+        document.body.addEventListener('htmx:beforeRequest', async (event) => {
+            const path = event.detail.pathInfo.requestPath;
+            
+            if (path.startsWith('/api/')) {
+                // Impede a requisição real de ir para o servidor Python (que daria 404)
+                event.preventDefault(); 
+                
+                const target = event.detail.target;
+                let html = '';
 
+                try {
+                    // Lógica do Hero Banner
+                    if (path.includes('/api/carousel/next')) {
+                        const url = new URL(path, window.location.origin);
+                        const current = parseInt(url.searchParams.get('current')) || 0;
+                        
+                        const res = await fetch('./assets/data/movies.json');
+                        const movies = await res.json();
+                        const nextIndex = (current + 1) % movies.length;
+                        const movie = movies[nextIndex];
+
+                        html = `
+                            <div class="slider" hx-get="/api/carousel/next?current=${nextIndex}" hx-trigger="every 5s" hx-swap="innerHTML">
+                                <div class="slide-content">
+                                    <h1 class="movie-title">${movie.name}</h1>
+                                    <p class="movie-des">${movie.des}</p>
+                                </div>
+                                <img src="${movie.image}" alt="Slider">
+                            </div>
+                        `;
+                    }
+
+                    // Lógica do Catálogo TMDB
+                    if (path.includes('/api/movies')) {
+                        const url = new URL(path, window.location.origin);
+                        const category = url.searchParams.get('category');
+                        const page = url.searchParams.get('page') || 1;
+                        
+                        const tmdbMap = {
+                            'recommended': 'movie/top_rated',
+                            'popular': 'tv/popular',
+                            'new': 'movie/now_playing'
+                        };
+
+                        const tmdbPath = tmdbMap[category] || 'movie/popular';
+                        const tmdbRes = await fetch(`https://api.themoviedb.org/3/${tmdbPath}?api_key=3a40d638587b1bc64ed4da395b26fbcb&page=${page}&language=pt-BR`);
+                        const data = await tmdbRes.json();
+
+                        html = data.results.map(movie => `
+                            <div class="card">
+                                <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="card-img" alt="${movie.title || movie.name}">
+                                <div class="card-body">
+                                    <h2 class="name">${movie.title || movie.name}</h2>
+                                    <h6 class="des">${movie.overview ? movie.overview.substring(0, 50) + '...' : 'Sem descrição disponível.'}</h6>
+                                    <button class="watchlist-btn">add to watchlist</button>
+                                </div>
+                            </div>
+                        `).join('');
+                    }
+
+                    // Injeta o HTML no alvo e diz ao HTMX para processar novos atributos hx-*
+                    if (html) {
+                        target.innerHTML = html;
+                        htmx.process(target);
+                    }
+
+                } catch (error) {
+                    console.error("Erro no Simulador API:", error);
+                }
+            }
+        });
+
+        document.body.addEventListener('htmx:configRequest', (event) => {
+            event.detail.headers['Authorization'] = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYTQwZDYzODU4N2IxYmM2NGVkNGRhMzk1YjI2ZmJjYiIsIm5iZiI6MTc3OTAzMjI2OS44NTYsInN1YiI6IjZhMDllMGNkYTBlMzQ0ZDg4ZWRiMmRmNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.IQvGBVdOwVHYKB4V5QXRCzAb233nPnYe5OOeC-w9xFs';
+        });
+    </script>
 </body>
 
 </html>

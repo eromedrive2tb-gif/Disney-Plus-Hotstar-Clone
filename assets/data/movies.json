@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "wanda vision",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
+    "image": "assets/img/slider 3.png"
+  },
+  {
+    "id": 2,
+    "name": "falcon and the winter soldier",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
+    "image": "assets/img/slider 2.png"
+  },
+  {
+    "id": 3,
+    "name": "raya and the last dragon",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
+    "image": "assets/img/slider 4.png"
+  },
+  {
+    "id": 4,
+    "name": "loki",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
+    "image": "assets/img/slider 1.png"
+  },
+  {
+    "id": 5,
+    "name": "luca",
+    "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
+    "image": "assets/img/slider 5.png"
+  }
+]
